@@ -31,7 +31,7 @@ This codebase is designed to be modular, educational and immediately runnable wi
 | `visualization/` | Tools for visualizing fusion results and tracking error. |
 | `scripts/` | Helper scripts, including synthetic data generation. |
 | `docs/` | Detailed theoretical documentation. |
-| `outputs/` | Generated results, plots logs. |
+| `outputs/` | Generated results, plots and logs. |
 
 ---
 
