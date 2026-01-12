@@ -1,4 +1,4 @@
-# Sensor Fusion & Calibration – Camera, LiDAR, and IMU Alignment
+# Sensor Fusion & Calibration – Camera, LiDAR and IMU Alignment
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ## 📌 Objective & Overview
-This repository implements a complete, **production-grade Sensor Fusion and Calibration pipeline**. It demonstrates the fusion of heterogeneous sensor data—specifically monocular **Camera**, **LiDAR**, and **IMU**—into a unified 3D perception system.
+This repository implements a complete, **production-grade Sensor Fusion and Calibration pipeline**. It demonstrates the fusion of heterogeneous sensor data—specifically monocular **Camera**, **LiDAR** and **IMU**—into a unified 3D perception system.
 
 The project addresses core challenges in robotics and autonomous systems:
 - **Intrinsic & Extrinsic Calibration**: Recovering sensor parameters and rigid-body transformations.
@@ -14,7 +14,7 @@ The project addresses core challenges in robotics and autonomous systems:
 - **State Estimation**: Implementing **Extended Kalman Filters (EKF)** and **Unscented Kalman Filters (UKF)** for robust trajectory tracking.
 - **Drift Compensation**: Mitigating environmental effects on sensor alignment.
 
-This codebase is designed to be modular, educational, and immediately runnable with **synthetic data generation** tools included.
+This codebase is designed to be modular, educational and immediately runnable with **synthetic data generation** tools included.
 
 ---
 
@@ -31,7 +31,7 @@ This codebase is designed to be modular, educational, and immediately runnable w
 | `visualization/` | Tools for visualizing fusion results and tracking error. |
 | `scripts/` | Helper scripts, including synthetic data generation. |
 | `docs/` | Detailed theoretical documentation. |
-| `outputs/` | Generated results, plots, and logs. |
+| `outputs/` | Generated results, plots logs. |
 
 ---
 
@@ -105,7 +105,7 @@ Comparison of Extended Kalman Filter (EKF) and Unscented Kalman Filter (UKF) aga
 ## 📚 Theory & Documentation
 
 For deeper technical insights, refer to the `docs/` folder:
-- [**Mathematical Foundation**](docs/calibration_math.md): Explains PnP, ICP, and Reprojection Error.
+- [**Mathematical Foundation**](docs/calibration_math.md): Explains PnP, ICP and Reprojection Error.
 - [**EKF vs UKF**](docs/ekf_vs_ukf.md): Detailed comparison of linearization approaches.
 - [**System Architecture**](docs/sensor_fusion_pipeline.md): End-to-end data flow and module breakdown.
 
